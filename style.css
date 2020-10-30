@@ -1,0 +1,9 @@
+form {
+    width: 100%;
+}
+.textInput {
+    border: none;
+}
+*:focus {
+    outline: none;
+}

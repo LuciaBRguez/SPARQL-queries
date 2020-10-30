@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Web Semántica</title>
+    <link rel="stylesheet" href="https://bootswatch.com/4/flatly/bootstrap.min.css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <a>WEB SEMÁNTICA</a>
+    </nav>
+    <div class="container">
+        <div id="queries" class="row pt-5 pb-5 justify-content-center">
+            <div class="col-md-8">
+                <div class="card">
+                    <div id="get-header-1" class="card-header text-center border border-primary">
+                        <h4>GET / YouTubers españoles escritores</h4>
+                    </div>
+                    <form id="get-1" class="card-body">
+                        <div id="content-get-1"></div>
+                        <input type="submit" value="Execute" id="btn-get" class="btn btn-outline-primary btn-block">
+                    </form> 
+                </div>
+                <br>
+                <div class="card">
+                    <div id="get-header-2" class="card-header text-center border border-success">
+                        <h4>GET / YouTubers nacidos en regiones pequeñas</h4>
+                    </div>
+                    <form id="get-2" class="card-body">
+                        <div id="content-get-2"></div>
+                        <input type="submit" value="Execute" id="btn-get-2" class="btn btn-outline-primary btn-block">
+                    </form>
+                </div>
+                <br>
+                <div class="card">
+                    <div id="get-header-3" class="card-header text-center border border-primary">
+                        <h4>GET / YouTubers fallecidos ordenados por edad</h4>
+                    </div>
+                    <form id="get-3" class="card-body">
+                        <div id="content-get-3"></div>
+                        <input type="submit" value="Execute" id="btn-get-3" class="btn btn-outline-primary btn-block">
+                    </form>
+                </div>
+                <br>
+                <div class="card">
+                    <div id="get-header-4" class="card-header text-center border border-warning">
+                        <h4>GET / YouTubers varones con al menos 2 hijos</h4>
+                    </div>
+                    <form id="get-4" class="card-body">
+                        <div id="content-get-4"></div>
+                        <input type="submit" value="Execute" id="btn-get-4" class="btn btn-outline-primary btn-block">
+                    </form>
+                </div>
+                <br>
+                <div class="card">
+                    <div id="get-header-5" class="card-header text-center border border-danger">
+                        <h4>GET / YouTubers que cumplen años hoy</h4>
+                    </div>
+                    <form id="get-5" class="card-body">
+                        <div id="content-get-5"></div>
+                        <input type="submit" value="Execute" id="btn-get-5" class="btn btn-outline-primary btn-block">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="scripts/jQuery.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
